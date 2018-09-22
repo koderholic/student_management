@@ -1,0 +1,27 @@
+{
+  "name": "vue-case",
+  "version": "1.0.0",
+  "description": "A boiler plate for vuejs application with webpack defined ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack-dev-server",
+    "build": "webpack -p --progress --hide-modules"
+  },
+  "author": "Kodedly",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.1.0",
+    "vue": "^2.5.17",
+    "vue-loader": "^15.4.2",
+    "vue-router": "^3.0.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.8",
+    "babel-loader": "^8.0.2",
+    "file-loader": "^2.0.0",
+    "vue-style-loader": "^4.1.2"
+  }
+}
