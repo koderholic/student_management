@@ -1,8 +1,7 @@
 <template >
-  <div id="app">
-    <img src="./assets/hello.jpeg">
-    <h1>This is a skeleton application for vue based projects.</h1>
-  </div>
+    <div >
+        <router-view></router-view>
+    </div>
 </template>
 
 <!-- App specific objects  -->
@@ -14,7 +13,5 @@
 
 <!-- App specific stylings  -->
 <style media="screen">
-  #app {
-    
-  }
+  @import "assets/css/app.css";
 </style>
