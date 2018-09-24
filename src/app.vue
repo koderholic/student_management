@@ -1,7 +1,7 @@
 <template >
-  <div id="app">
-    <h1 class="welcome-text">This is a skeleton application for vue based projects. <br> Feel free to mess around...</h1>
-  </div>
+    <div id="app">
+        <router-view></router-view>
+    </div>
 </template>
 
 <!-- App specific objects  -->
@@ -20,7 +20,7 @@
     width: inherit;
     height: 100vh;
     background-color: blue;
-    background: url("assets/hello.jpeg");
+    /* background: url("./assets/hello.jpeg"); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,7 +28,7 @@
     padding-left: 60rem;
     padding-right: 0;
   }
-  .welcome-text {
+  .heading {
     color: #fff;
     font-size: 2.5rem;
   }
