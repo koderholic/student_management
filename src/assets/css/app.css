@@ -4,8 +4,7 @@ body {
 #app {
   width: inherit;
   height: 100vh;
-  background-color: blue;
-  /* background: url("./assets/hello.jpeg"); */
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

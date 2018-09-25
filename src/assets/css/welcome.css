@@ -1,4 +1,17 @@
 
 .app_bg {
-    background-color: blue;
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.athelas {
+  background-image: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);
+}
+
+.fs32 {
+  font-size: 32px;
 }
