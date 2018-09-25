@@ -1,7 +1,8 @@
 import Router from "vue-router"
 import Vue from "vue"
 import welcomeComponent from "@/components/welcome"
-import aboutComponent from "@/components/aboutSkeleton"
+import signupOptionsComponent from "@/components/signupOptions"
+import signupComponent from "@/components/signup"
 
 Vue.use(Router)
 
@@ -15,9 +16,14 @@ export const router =  new Router({
         component: welcomeComponent
       },
       {
-        path: '/about',
-        name: 'about',
-        component: aboutComponent
+        path: '/signup/options',
+        name: 'signupOptions',
+        component: signupOptionsComponent
+      },
+      {
+        path: '/signup',
+        name: 'signup',
+        component: signupComponent
       }
     ]
   })

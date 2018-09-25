@@ -1,17 +1,17 @@
 <template>
     <div>
-      <article :class="{athelas: currentDisplay.caption == ''}">
+      <div class="tr w-100 fixed top-0 pa4" :class="{'bg-white': currentDisplay.caption == '', 'bg-dark-green': currentDisplay.caption != ''}">
+        <router-link :to="{name: 'signupOptions'}"  class="fs32 no-underline black bg-animate hover-bg-black hover-white inline-flex pa3 ba border-box items-center" :class="{'white': currentDisplay.caption != '', 'dark-green': currentDisplay.caption == ''}" >
+          <span class="pr1">Next</span>
+          <svg class="w1" :class="{'white': currentDisplay.caption != '', 'dark-green': currentDisplay.caption == ''}" data-icon="chevronRight" viewBox="0 0 32 32" style="fill:currentcolor">
+            <title>chevronRight icon</title>
+            <path d="M12 1 L26 16 L12 31 L8 27 L18 16 L8 5 z"></path>
+          </svg>
+        </router-link>
+      </div>
+      <article :class="{athelas: currentDisplay.caption == ''}" class="mt4">
         <div class="vh-100 dt w-100 tc app_bg white cover">
           <div class="dtc v-mid">
-            <div class="tr w-100 fixed top-0 pa4" :class="{'bg-white': currentDisplay.caption == '', 'bg-dark-green': currentDisplay.caption != ''}">
-              <a href="#0" class="fs32 no-underline black bg-animate hover-bg-black hover-white inline-flex pa3 ba border-box items-center" :class="{'white': currentDisplay.caption != '', 'dark-green': currentDisplay.caption == ''}">
-                <span class="pr1">Next</span>
-                <svg class="w1" :class="{'white': currentDisplay.caption != '', 'dark-green': currentDisplay.caption == ''}" data-icon="chevronRight" viewBox="0 0 32 32" style="fill:currentcolor">
-                  <title>chevronRight icon</title>
-                  <path d="M12 1 L26 16 L12 31 L8 27 L18 16 L8 5 z"></path>
-                </svg>
-              </a>
-            </div>
             <header class="tc pv5 pv6-ns">
               <img :src="(displayintervalStatus)? currentDisplay.src : initialDisplay.src" class="pa1 b--black-10 h40 w40" width="100%" height="auto" alt="avatar">
               <h2 class="f32 white fw2 tracked"></h2>

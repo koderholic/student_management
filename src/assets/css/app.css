@@ -24,3 +24,19 @@ body {
 .h40 {
   width: 40rem;
 }
+
+.mb8 {
+  margin-bottom: 4rem
+}
+
+.f8 {
+  font-size: 2.5rem
+}
+
+.ml42 {
+  margin-left: 42rem;
+}
+
+.athelas {
+  background-image: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);
+}

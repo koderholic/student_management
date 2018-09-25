@@ -50,7 +50,7 @@ module.exports = {
         test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
         loader: 'file-loader',
         options: {
-          filename: '.././dist/img/[hash:5]-[name].[ext]'
+          name: './dist/img/[hash:5]-[name].[ext]'
         }
       },
       {
@@ -58,7 +58,7 @@ module.exports = {
         loader: 'url-loader',
         options: {
           limit: 10000,
-          name: '.././dist/media/[hash:5]-[name].[ext]'
+          name: './dist/media/[hash:5]-[name].[ext]'
         }
       },
       {
@@ -66,7 +66,7 @@ module.exports = {
         loader: 'url-loader',
         options: {
           limit: 10000,
-          name: '.././dist/fonts/[hash:5]-[name].[ext]'
+          name: './dist/fonts/[hash:5]-[name].[ext]'
         }
       }
     ]

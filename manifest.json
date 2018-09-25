@@ -1,0 +1,24 @@
+{
+  "manifest_version": 1,
+  "version": "1.0.0",
+  "name": "School Mesh",
+  "short_name": "SchoolMesh",
+  "description": "A school community application, to help students harmonize knowledge while still networking",
+  "default_locale": "en",
+  "icons": [
+        {
+            "src": "src/assets/img/logo-2.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "src/assets/img/favicon.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        }
+    ],
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#386b95",
+  "theme_color": "#137752"
+}
