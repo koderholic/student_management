@@ -16,6 +16,7 @@ module.exports = merge(base, {
   devServer: {
     port: 9090,
     overlay: true,
+    disableHostCheck: true,
     historyApiFallback: {
       rewrites: [
         { from: /^\/$/, to: '../index.html' }
